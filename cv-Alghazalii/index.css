@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    background-image: url(https://manjaro.org/img/bg.svg);
+    background-size: auto;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-position: -232px 232px;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Sidebar Styles */
+#sidebar {
+    position: fixed; /* Membuat sidebar tetap di tempat */
+    top: 0; /* Tetap di bagian atas layar */
+    left: 0; /* Tetap di sisi kiri layar */
+    height: 100vh; /* Mengambil tinggi layar penuh */
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Lebar tetap */
+    max-width: 350px; /* Maksimum lebar */
+    text-align: justify;
+    padding: 16px;
+    border-radius: 8px;
+    overflow-y: auto; /* Menambahkan scrollbar jika konten terlalu panjang */
+}
+
+#sidebar img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Sidebar Contact Styles */
+#sidebar h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #009688;
+}
+
+#sidebar p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Content Section Styles */
+.content-section {
+    width: 70%; /* Lebar konten utama */
+    margin-left: 32%; /* Margin sesuai dengan lebar sidebar */
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 16px;
+}
+
+.section h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #009688;
+}
+
+.education, .project, .skill {
+    margin-bottom: 10px;
+}
+
+.education h3, .project h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+}
+
+.education p, .project p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.progress-bar {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 4px 0;
+}
+
+.progress {
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 16px;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 16px 0;
+}
